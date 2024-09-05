@@ -29,16 +29,9 @@
 [submodule "tools/python-semver"]
 	path = tools/python-semver
 	url = https://github.com/k-bx/python-semver.git
-[submodule "atmel-samd/asf4"]
-	path = ports/atmel-samd/asf4
-	url = https://github.com/adafruit/asf4.git
-	branch = circuitpython
 [submodule "lib/nrfutil"]
 	path = lib/nrfutil
 	url = https://github.com/adafruit/nRF52_nrfutil
-[submodule "ports/atmel-samd/freetouch"]
-	path = ports/atmel-samd/freetouch
-	url = https://github.com/adafruit/Adafruit_FreeTouch.git
 [submodule "frozen/Adafruit_CircuitPython_CircuitPlayground"]
 	path = frozen/Adafruit_CircuitPython_CircuitPlayground
 	url = https://github.com/adafruit/Adafruit_CircuitPython_CircuitPlayground.git
@@ -57,9 +50,6 @@
 [submodule "frozen/Adafruit_CircuitPython_DotStar"]
 	path = frozen/Adafruit_CircuitPython_DotStar
 	url = https://github.com/adafruit/Adafruit_CircuitPython_DotStar.git
-[submodule "ports/atmel-samd/peripherals"]
-	path = ports/atmel-samd/peripherals
-	url = https://github.com/adafruit/samd-peripherals.git
 [submodule "frozen/Adafruit_CircuitPython_Crickit"]
 	path = frozen/Adafruit_CircuitPython_Crickit
 	url = https://github.com/adafruit/Adafruit_CircuitPython_Crickit
@@ -89,9 +79,6 @@
 [submodule "frozen/circuitpython-stage"]
 	path = frozen/circuitpython-stage
 	url = https://github.com/python-ugame/circuitpython-stage.git
-[submodule "ports/cxd56/spresense-exported-sdk"]
-	path = ports/cxd56/spresense-exported-sdk
-	url = https://github.com/sonydevworld/spresense-exported-sdk.git
 [submodule "frozen/Adafruit_CircuitPython_SD"]
 	path = frozen/Adafruit_CircuitPython_SD
 	url = https://github.com/adafruit/Adafruit_CircuitPython_SD.git
@@ -144,9 +131,6 @@
 	path = ports/espressif/esp-idf
 	url = https://github.com/adafruit/esp-idf.git
 	branch = circuitpython-v5.1.3
-[submodule "ports/espressif/esp-protocols"]
-	path = ports/espressif/esp-protocols
-	url = https://github.com/espressif/esp-protocols.git
 [submodule "ports/espressif/esp-camera"]
 	path = ports/espressif/esp-camera
 	url = https://github.com/adafruit/esp32-camera.git
@@ -199,33 +183,6 @@
 [submodule "ports/stm/st_driver/cmsis_device_f4"]
 	path = ports/stm/st_driver/cmsis_device_f4
 	url = https://github.com/STMicroelectronics/cmsis_device_f4.git
-[submodule "ports/stm/st_driver/cmsis_device_f0"]
-	path = ports/stm/st_driver/cmsis_device_f0
-	url = https://github.com/STMicroelectronics/cmsis_device_f0.git
-[submodule "ports/stm/st_driver/stm32f0xx_hal_driver"]
-	path = ports/stm/st_driver/stm32f0xx_hal_driver
-	url = https://github.com/STMicroelectronics/stm32f0xx_hal_driver.git
-[submodule "ports/stm/st_driver/cmsis_device_f1"]
-	path = ports/stm/st_driver/cmsis_device_f1
-	url = https://github.com/STMicroelectronics/cmsis_device_f1.git
-[submodule "ports/stm/st_driver/stm32f1xx_hal_driver"]
-	path = ports/stm/st_driver/stm32f1xx_hal_driver
-	url = https://github.com/STMicroelectronics/stm32f1xx_hal_driver.git
-[submodule "ports/stm/st_driver/cmsis_device_f2"]
-	path = ports/stm/st_driver/cmsis_device_f2
-	url = https://github.com/STMicroelectronics/cmsis_device_f2.git
-[submodule "ports/stm/st_driver/stm32f2xx_hal_driver"]
-	path = ports/stm/st_driver/stm32f2xx_hal_driver
-	url = https://github.com/STMicroelectronics/stm32f2xx_hal_driver.git
-[submodule "ports/stm/st_driver/cmsis_device_f3"]
-	path = ports/stm/st_driver/cmsis_device_f3
-	url = https://github.com/STMicroelectronics/cmsis_device_f3.git
-[submodule "ports/stm/st_driver/stm32f3xx_hal_driver"]
-	path = ports/stm/st_driver/stm32f3xx_hal_driver
-	url = https://github.com/STMicroelectronics/stm32f3xx_hal_driver.git
-[submodule "ports/stm/st_driver/cmsis_device_f7"]
-	path = ports/stm/st_driver/cmsis_device_f7
-	url = https://github.com/STMicroelectronics/cmsis_device_f7.git
 [submodule "ports/stm/st_driver/stm32f7xx_hal_driver"]
 	path = ports/stm/st_driver/stm32f7xx_hal_driver
 	url = https://github.com/STMicroelectronics/stm32f7xx_hal_driver.git
@@ -235,42 +192,18 @@
 [submodule "ports/stm/st_driver/stm32h7xx_hal_driver"]
 	path = ports/stm/st_driver/stm32h7xx_hal_driver
 	url = https://github.com/STMicroelectronics/stm32h7xx_hal_driver.git
-[submodule "ports/stm/st_driver/cmsis_device_l0"]
-	path = ports/stm/st_driver/cmsis_device_l0
-	url = https://github.com/STMicroelectronics/cmsis_device_l0.git
 [submodule "ports/stm/st_driver/stm32l0xx_hal_driver"]
 	path = ports/stm/st_driver/stm32l0xx_hal_driver
 	url = https://github.com/STMicroelectronics/stm32l0xx_hal_driver.git
-[submodule "ports/stm/st_driver/cmsis_device_l1"]
-	path = ports/stm/st_driver/cmsis_device_l1
-	url = https://github.com/STMicroelectronics/cmsis_device_l1.git
-[submodule "ports/stm/st_driver/stm32l1xx_hal_driver"]
-	path = ports/stm/st_driver/stm32l1xx_hal_driver
-	url = https://github.com/STMicroelectronics/stm32l1xx_hal_driver.git
-[submodule "ports/stm/st_driver/cmsis_device_l4"]
-	path = ports/stm/st_driver/cmsis_device_l4
-	url = https://github.com/STMicroelectronics/cmsis_device_l4.git
 [submodule "ports/stm/st_driver/stm32l4xx_hal_driver"]
 	path = ports/stm/st_driver/stm32l4xx_hal_driver
 	url = https://github.com/STMicroelectronics/stm32l4xx_hal_driver.git
-[submodule "ports/stm/st_driver/cmsis_device_g0"]
-	path = ports/stm/st_driver/cmsis_device_g0
-	url = https://github.com/STMicroelectronics/cmsis_device_g0.git
 [submodule "ports/stm/st_driver/stm32g0xx_hal_driver"]
 	path = ports/stm/st_driver/stm32g0xx_hal_driver
 	url = https://github.com/STMicroelectronics/stm32g0xx_hal_driver.git
-[submodule "ports/stm/st_driver/cmsis_device_g4"]
-	path = ports/stm/st_driver/cmsis_device_g4
-	url = https://github.com/STMicroelectronics/cmsis_device_g4.git
 [submodule "ports/stm/st_driver/stm32g4xx_hal_driver"]
 	path = ports/stm/st_driver/stm32g4xx_hal_driver
 	url = https://github.com/STMicroelectronics/stm32g4xx_hal_driver.git
-[submodule "ports/stm/st_driver/cmsis_device_l5"]
-	path = ports/stm/st_driver/cmsis_device_l5
-	url = https://github.com/STMicroelectronics/cmsis_device_l5.git
-[submodule "ports/stm/st_driver/stm32l5xx_hal_driver"]
-	path = ports/stm/st_driver/stm32l5xx_hal_driver
-	url = https://github.com/STMicroelectronics/stm32l5xx_hal_driver.git
 [submodule "ports/stm/st_driver/CMSIS_5"]
 	path = ports/stm/st_driver/CMSIS_5
 	url = https://github.com/ARM-software/CMSIS_5.git
@@ -321,10 +254,6 @@
 [submodule "frozen/Adafruit_CircuitPython_SSD1680"]
 	path = frozen/Adafruit_CircuitPython_SSD1680
 	url = https://github.com/adafruit/Adafruit_CircuitPython_SSD1680
-[submodule "ports/broadcom/peripherals"]
-	path = ports/broadcom/peripherals
-	url = https://github.com/adafruit/broadcom-peripherals.git
-	branch = main-build
 [submodule "ports/silabs/gecko_sdk"]
 	path = ports/silabs/gecko_sdk
 	url = https://github.com/SiliconLabs/gecko_sdk.git
